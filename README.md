@@ -132,14 +132,15 @@ npm run dev
 Vite will provide a local URL similar to:
 http://localhost:5173/
 Open that URL in your browser.
-📷 Camera Permission
+
+## 📷 Camera Permission
 MoodLens requires access to your device's camera for facial expression detection.
 When the browser asks for permission:
 Click Allow
 Make sure your camera is not being used exclusively by another application.
 Position your face clearly in front of the camera.
 Make sure there is enough lighting.
-💻 Browser Requirements
+## 💻 Browser Requirements
 MoodLens works best on modern browsers that support:
 WebRTC / getUserMedia
 JavaScript
@@ -150,18 +151,22 @@ Recommended browsers:
 Google Chrome
 Microsoft Edge
 Mozilla Firefox
-🔊 Voice Feedback
+
+## 🔊 Voice Feedback
 MoodLens uses the browser's built-in Speech Synthesis API to speak the detected mood.
 For example, the application can provide a response similar to:
 Hello! You are in Happy mode. Keep enjoying the positive energy.
 The exact voice depends on the browser and operating system.
-🌙 Dark Mode
+
+## 🌙 Dark Mode
 MoodLens includes a dark/night mode for a more comfortable experience in low-light environments.
 Users can switch between the normal and dark themes using the theme button.
-🔁 Analyze Again
+
+## 🔁 Analyze Again
 After an expression has been detected, users can choose Analyze Again.
 This allows MoodLens to perform another facial expression analysis without requiring the user to completely restart the camera.
-🔐 Privacy
+
+## 🔐 Privacy
 MoodLens is designed around browser-based facial expression analysis.
 The current frontend version:
 Uses the user's camera through browser permission.
@@ -172,7 +177,8 @@ Does not store facial images in a database.
 Does not require a backend server for facial expression detection.
 Camera access is controlled by the user's browser.
 Users should always review and understand the privacy implications of any application that uses camera-based facial analysis.
-⚠️ Limitations
+
+## ⚠️ Limitations
 MoodLens estimates facial expressions from visible facial features. Facial-expression recognition is not a definitive measurement of a person's actual emotional or mental state.
 Detection can be affected by:
 Poor lighting
@@ -183,23 +189,25 @@ Occlusion of facial features
 Extreme head angles
 Facial expressions that are difficult to distinguish
 Therefore, the detected mood should be treated as an AI-generated estimate, not a psychological diagnosis.
-🔮 Future Improvements
+
+## 🔮 Future Improvements
 Possible future versions of MoodLens may include:
-📊 Mood history
-📈 Mood analytics dashboard
-👤 User accounts
-🔐 Secure authentication
-☁️ Cloud database
-🗄️ MongoDB integration
-📅 Daily mood tracking
-📱 Improved mobile interface
-🎨 More UI themes
-🎙️ More voice options
-🧠 Improved emotion classification
-📉 Mood statistics and charts
-📝 Personal mood journal
-🔔 Personalized recommendations
-☁️ Deployment
+•📊 Mood history
+•📈 Mood analytics dashboard
+•👤 User accounts
+•🔐 Secure authentication
+•☁️ Cloud database
+•🗄️ MongoDB integration
+•📅 Daily mood tracking
+•📱 Improved mobile interface
+•🎨 More UI themes
+•🎙️ More voice options
+•🧠 Improved emotion classification
+•📉 Mood statistics and charts
+•📝 Personal mood journal
+•🔔 Personalized recommendations
+
+## ☁️ Deployment
 The frontend can be deployed using a static hosting platform such as Netlify.
 For the current project structure, the frontend build configuration is:
 Base directory: MoodLens/frontend
@@ -209,7 +217,8 @@ Before deployment, test the production build locally:
 npm run build
 If the build succeeds, Vite creates the production files inside:
 dist/
-🧪 Development
+
+## 🧪 Development
 To run the application during development:
 cd MoodLens/frontend
 npm install
@@ -218,7 +227,8 @@ To create a production build:
 npm run build
 To preview the production build locally:
 npm run preview
-🤝 Contributing
+
+## 🤝 Contributing
 Contributions and suggestions are welcome.
 To contribute:
 Fork the repository.
