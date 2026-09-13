@@ -69,7 +69,7 @@ A personalized message is generated
        ↓
 MoodLens speaks the result
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 Frontend
 React.js
 Vite
