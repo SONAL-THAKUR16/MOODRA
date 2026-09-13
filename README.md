@@ -71,25 +71,26 @@ MoodLens speaks the result
 ```
 
 ## 🛠️ Technologies Used
-Frontend
-React.js
-Vite
-JavaScript
-HTML5
-CSS3
-AI / Face Detection
-face-api.js
-Tiny Face Detector
-Face Expression Recognition
-Browser APIs
-MediaDevices / getUserMedia
-Web Speech API
-Speech Synthesis API
-Development Tools
-Visual Studio Code
-Git
-GitHub
-npm
+•Frontend
+•React.js
+•Vite
+•JavaScript
+•HTML5
+•CSS3
+•AI / Face Detection
+•face-api.js
+•Tiny Face Detector
+•Face Expression Recognition
+•Browser APIs
+•MediaDevices / getUserMedia
+•Web Speech API
+•Speech Synthesis API
+•Development Tools
+•Visual Studio Code
+•Git
+•GitHub
+•npm
+
 📂 Project Structure
 MoodLens/
 │
