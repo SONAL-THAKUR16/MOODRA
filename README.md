@@ -68,7 +68,7 @@ Confidence score is displayed
 A personalized message is generated
        ↓
 MoodLens speaks the result
----
+```
 
 ## 🛠️ Technologies Used
 Frontend
@@ -114,6 +114,7 @@ MoodLens/
 │
 ├── .gitignore
 └── README.md
+
 The current deployed version focuses on the frontend. A backend/database can be added later if persistent user data or mood history is required.
 🚀 Getting Started
 Follow the steps below to run MoodLens on your computer.
@@ -141,6 +142,7 @@ Click Allow
 Make sure your camera is not being used exclusively by another application.
 Position your face clearly in front of the camera.
 Make sure there is enough lighting.
+
 ## 💻 Browser Requirements
 MoodLens works best on modern browsers that support:
 WebRTC / getUserMedia
@@ -181,14 +183,14 @@ Users should always review and understand the privacy implications of any applic
 
 ## ⚠️ Limitations
 MoodLens estimates facial expressions from visible facial features. Facial-expression recognition is not a definitive measurement of a person's actual emotional or mental state.
-Detection can be affected by:
-Poor lighting
-Camera quality
-Face position
-Multiple faces in the camera
-Occlusion of facial features
-Extreme head angles
-Facial expressions that are difficult to distinguish
+•Detection can be affected by:
+•Poor lighting
+•Camera quality
+•Face position
+•Multiple faces in the camera
+•Occlusion of facial features
+•Extreme head angles
+•Facial expressions that are difficult to distinguish
 Therefore, the detected mood should be treated as an AI-generated estimate, not a psychological diagnosis.
 
 ## 🔮 Future Improvements
@@ -211,11 +213,11 @@ Possible future versions of MoodLens may include:
 ## ☁️ Deployment
 The frontend can be deployed using a static hosting platform such as Netlify.
 For the current project structure, the frontend build configuration is:
-Base directory: MoodLens/frontend
-Build command: npm run build
-Publish directory: dist
+•Base directory: MoodLens/frontend
+•Build command: npm run build
+•Publish directory: dist
 Before deployment, test the production build locally:
-npm run build
+•npm run build
 If the build succeeds, Vite creates the production files inside:
 dist/
 
@@ -232,24 +234,19 @@ npm run preview
 ## 🤝 Contributing
 Contributions and suggestions are welcome.
 To contribute:
-Fork the repository.
-Create a new branch.
-git checkout -b feature/new-feature
-Make your changes.
-Commit your changes.
-git commit -m "Add new feature"
-Push the branch.
-git push origin feature/new-feature
-Create a Pull Request.
+•Fork the repository.
+•Create a new branch.
+•git checkout -b feature/new-feature
+•Make your changes.
+•Commit your changes.
+•git commit -m "Add new feature"
+•Push the branch.
+•git push origin feature/new-feature
+•Create a Pull Request.
+
 👨‍💻 Developer
 Sonal Thakur
-BTech Student | Developer | Problem Solver
-Interested in:
-Artificial Intelligence
-Machine Learning
-Web Development
-Data Structures & Algorithms
-Software Development
+
 📌 Project Status
 🟢 Frontend Development: Active
 🟢 Facial Expression Detection: Implemented
